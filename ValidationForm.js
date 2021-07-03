@@ -34,7 +34,7 @@ export default class ValidationForm extends React.Component {
       emailError = "invalid email";
     }
     if (!this.state.passwordError) {
-      passwordError = "name cannot be blank";
+      passwordError = "password cannot be blank";
     }
 
 
